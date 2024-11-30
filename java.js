@@ -66,3 +66,40 @@
 //   alert("hey i am ansh");
 //   document.getElementById("show").textContent = "HELLO";
 // }
+
+
+
+// -------------------//backtick game::::
+
+
+
+// var name = "ansh"
+// var surname = "sirsatiya"
+
+// var show =  `i am using template literal ${name} , ${surname}`
+
+// console.log(show);
+
+
+
+
+// ---------
+
+
+// var take = document.getElementById("trial");
+// // take.innerHTML = "<h1> + take + </h1>";     //not gonnna work  just print + take + 
+// take.innerHTML = `<h1>${message}</h1>`;   //use backtick
+// var message = "Hello, World!";   //not work case it work line by line just take it up the it will work
+
+
+//perfect example::::
+
+
+// var take = document.getElementById("trial");
+
+// var message = "Hello, World!";
+// // Use the message in the h1
+// take.innerHTML = `<h1 style="font-size: 100px;">${message}</h1>`;
+
+
+
