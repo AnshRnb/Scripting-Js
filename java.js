@@ -103,3 +103,52 @@
 
 
 
+// ----------------------objects------------------------------
+
+
+
+// All type of function below::::))
+
+// const obj = {
+//   name: "ansh",
+//   course: "pythondev/javaS/C++",
+//   age: 24,
+//   btno: function () {
+//     return this.name + " " + this.course + " " + this.age;
+//   },
+// };
+
+// with normal function using onclick in html btn:::
+
+//   function btn()
+//   {
+//     console.log(obj.name + " " + obj.course + " " + obj.age);
+//     document.getElementById("show").innerHTML =  obj.btno();
+
+//    }
+
+// ---------------- with arrow function  using id in html::::
+
+// document.getElementById("btn").onclick = () => {
+//   console.log(obj.name + " " + obj.course + " " + obj.age);
+//   document.getElementById("show").innerHTML = obj.btno();
+// };
+
+// --------------------addEventListener---------------------------
+
+// var store = document.getElementById("btn")
+// store.addEventListener("click", btn)
+
+// function btn()
+// {
+//     console.log(obj.name + " " + obj.course + " " + obj.age);
+//     document.getElementById("show").innerHTML =  obj.btno();
+// }
+
+
+// ---------------------------------------------------------
+
+
+
+
+
