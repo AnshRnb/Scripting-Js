@@ -146,7 +146,53 @@
 // }
 
 
-// ---------------------------------------------------------
+// ---------------------------Switch Case- No HTML --------------------------
+
+// let today_date = new Date(); // Corrected initialization
+// console.log(today_date);
+
+// let tday = today_date.getDay(); // Get the day of the week
+// console.log(tday);
+
+// let day;
+
+// switch (tday) {
+//     case 0:
+//         day = "sunday";
+//         break;
+//     case 1:
+//         day = "monday";
+//         break;
+//     case 2:
+//         day = "tuesday";
+//         break;
+//     case 3:
+//         day = "wednesday";
+//         break;
+//     case 4:
+//         day = "thursday";
+//         break;
+//     case 5:
+//         day = "friday";
+//         break;
+//     case 6:
+//         day = "saturday";
+//         break;
+// }
+
+// console.log(`today is: ${day}`);
+
+// // -----practise----
+
+// let today = new Date();  // Create a new Date object
+// let dayOfWeek = today.getDay();  // Get the day of the week (0-6)
+
+// console.log(dayOfWeek);  // Print the day of the week
+
+// console.log(`day of a week is ${dayOfWeek} and date is ${today}` );
+
+
+// -------------------------------------
 
 
 
