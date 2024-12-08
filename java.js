@@ -257,8 +257,47 @@
 
 
 
-// --------------------------------------------------------------------------
 
+// -----------------------------objects in js-----------------------------------
+
+// making and calling function
+
+//   function ansh(...num1){
+//     return num1;
+//   }
+
+// //   document.write(ansh(200,400))
+//   console.log(ansh(400));
+
+
+// ----------------------------------
+// making an object and making function and object passing the value of object on console and
+// then outside calling it out by function and object means anyfunction(anyobj)
+
+
+// const user = {
+//     name: "ansh",
+//     course: "python dev"
+
+// }
+
+// function  show(obj){
+//     console.log(`username is ${obj.name} and course is ${obj.course}`);
+// }
+
+// show(user)
+
+
+// // U can manually assign the value as well
+// show({
+//     name: "boby",
+//     course: "java.js"
+// })
+
+
+
+
+// --------------------------------------------------------------------------
 
 
 
