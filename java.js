@@ -192,7 +192,74 @@
 // console.log(`day of a week is ${dayOfWeek} and date is ${today}` );
 
 
-// -------------------------------------
+
+
+// --------------------------array------------------------------
+
+
+
+// const  arrayi = ["ansh", "vansh", "kansh"];
+
+// function name(obj){
+//     return obj.join(", ");
+//     // return obj[0]
+//     // obj.forEach( value => console.log(value));
+    
+// }
+
+// console.log(name(arrayi)); 
+// // console.log(["aka", "lol", "mom"]); 
+// // name(arrayi); 
+
+
+// --------
+
+
+
+// const arrays = [12, 11, 15, 47]
+
+// function getvalue(para){
+//    return para[0]
+// //    return para;
+// }
+
+// console.log(getvalue(arrays)); 
+// // console.log(getvalue([200,300,400])); 
+
+
+
+
+// --------------------array with forEach arrow fun------------------------------
+
+
+// const arrayo = [12, 11, 15, 47];
+
+// function  myfun(obj){
+//     // obj.forEach(value => console.log(value));
+//     obj.forEach(value => document.write(value + '<br>'));
+//     // obj.forEach(value => document.write(value));
+// }
+
+// myfun(arrayo);
+
+
+
+// -------------------------------with join  array function--------------------------
+
+
+// const arrayo = [12, 11, 15, 47];
+
+// function getit(obj){
+//     return obj.join(', ');
+// }
+
+// console.log(getit(arrayo)); 
+
+
+
+// --------------------------------------------------------------------------
+
+
 
 
 
