@@ -480,6 +480,84 @@
 
 //----------------------------------------------------------------------
 
+// shift Array  -- opposite to POP METHOD  6
+
+//removes the starting elements of an array
+//modified the array
+//show the removed elements as well.
+
+// const value = [ 1,2,3,4,5,6];
+
+// value.shift();    //removes first only
+// console.log(value);   //then show it after removal
+
+// console.log(value.shift());    //show the removed one
+
+// -------------------------------------------------
+
+// UNshift Array   7
+
+//add with starting elements of an array with index value
+//modified the array
+//show the length of an array.
+
+// let value = [ 1,2,3,4,5,6];
+
+// value.unshift("ansh", "boby");    //add in starts
+// console.log(value);   //then show it after removal
+
+// let valueReal = value.unshift("ansh", "boby");    //shows the length also
+// console.log(valueReal);
+
+// --------------------------------------------------------------
+
+//includes in js ::: 8
+
+// if passed value exits then return true
+// if passed value does't exits then return false
+//case sensitive
+
+// const animals = ["cat", "CAT", "dog", "fisH"];
+
+// console.log(animals.includes("fisH"));
+// console.log(animals.includes("CAT"));
+
+// -------------------------------------------------
+
+// indexof:::: 9
+
+//case sensitive::
+// if value exists return the index value
+// if value  doesn't exists return -1
+//starts from left to right
+
+
+// const animals = ["cat", "CAT", "dog", "fisH"];
+
+// // console.log(animals.indexOf("cat", -4));   //0 index cat exits
+// console.log(animals.indexOf("dog", -3));   //2 index cat exits
+
+
+// ---------------------------------------------------------------------------
+
+// lastindexof()   opposite of index 10
+
+//case sensitive::
+// if value exists return the index value
+// if value  doesn't exists return -1
+//starts from right to left
+
+
+// const animals = ["cat", "CAT", "dog", "fisH", "CAT"];
+
+// console.log(animals.lastIndexOf("CAT", -1));   //4 index cat exits
+// console.log(animals.lastIndexOf("dog", 3));   //2 index cat exits
+
+
+// ----------------------------------------------------------------------------------
+
+
+
 
 
 
