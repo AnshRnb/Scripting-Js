@@ -295,9 +295,116 @@
 // })
 
 
+// ---------METHODS IN JS
+
+//trim:::::----------------------------------------
 
 
-// --------------------------------------------------------------------------
+//The trim() method in JavaScript removes whitespace from both ends 
+//of a string without modifying the original string.
+
+
+// //it trims the spaces means white spaces
+// let nameN = "  ansh   "
+
+// let trimN = nameN.trim();
+
+// console.log(trimN);
+
+
+// split-------------------------
+
+//The split() method in JavaScript divides a string into an array of substrings based on a
+// specified separator.
+
+// let  data = "this is my name Ansh";  //length will b one  1
+
+// let  dataone = data.split(",");
+// // let  dataone = data.split(",");
+
+// console.log(dataone);
+
+// // let text = "apple banana cherry"; //it just one element of an arrray  but...
+
+// let text = "apple, banana, cherry"; //if we use seperator means , it will count it as a 
+// //multiple elements of an string
+
+// let fruits = text.split(",");  // fruits = ['apple', 'banana', 'cherry']
+// console.log(fruits);
+
+
+
+// slice---------------------------------
+
+// slice::::
+// /The slice() method in JavaScript returns a shallow copy of a portion of an array or 
+// string, extracted from a specified start index to an end index (not including the end index).
+
+// let  data = "Javascript ansh";
+
+// let  dataone = data.slice(0,4);  //it start from zero
+// let  dataone = data.slice(-1);   // last index value
+// let  dataone = data.slice(-5);   // it will give whole not one character means ansh
+// let  dataone = data.slice(-6);   //it split the element with or without spaces
+
+
+// console.log(dataone);
+
+
+
+// substring()---------------------------
+
+//The substring() method in JavaScript returns a portion of a
+// string between two specified indices or we can say index:::
+
+
+// let  data = "this is my name Ansh";
+
+// let  dataone = data.substring(0,4);  //output = this
+// let  dataone = data.substring(15, 20);   //it will print Ansh
+// let  dataone = data.substring(16, 20 );   //it will print Ansh
+
+// console.log(dataone);
+
+
+
+//substr----------------
+
+//The substr() method in JavaScript returns a substring of a string, starting from a specified
+// index and extending for a given number of characters.
+
+// (Note: substr() is considered legacy and is generally recommended
+//  to use substring() or slice() instead.)
+
+
+
+
+// let  data = "this is my name Ansh";
+
+// let  dataone = data.substr(15,16);   //it does not include any spaces....
+// let  dataone = data.substr(-4,4);   //shows Ansh
+// let  dataone = data.substr(11, 12);   //start to all....
+// let  dataone = data.substr(19);
+
+
+// console.log(dataone);
+
+
+
+// // replace--------------------------------
+
+
+
+//The replace() method in JavaScript is used to search for a specified substring or pattern in
+// a string and replace it with a new substring.
+
+// let  data = "this is my name Ansh";
+// let  data = "javascript is a funny language javascript  "
+
+// let  dataone = data.replaceAll("javascript", "java");
+// let  dataone = data.replace("javascript" , "c++");
+
+// console.log(dataone);
 
 
 
