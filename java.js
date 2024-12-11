@@ -407,6 +407,80 @@
 // console.log(dataone);
 
 
+//--------------------------------METHODS IN JS---------------------------------------------------
+//self growth
+
+// LENGTH  1
+//In JavaScript, the length property is used to determine the number of elements in
+//an array or the number of characters in a string.
+
+// const value = ["ansh" , 47, 11, {name: "Ansh"}, ["hello"]]
+
+// console.log(value.length);
+// console.log(value);
+
+// const  name = "ansh"
+// console.log(name.length);
+
+// ----------------------
+
+// Index in array  2
+
+// start with 0 we can get any elemrnt of an array by index value
+
+// const value = ["ansh" , 47, 11, {name: "Ansh"}, ["hello"]]
+
+// // console.log(value[3]);
+// console.log(value[3].name);
+
+//----------------------------------------------
+
+// Array at  3
+
+// In JavaScript, the at() method allows you to access an element at a specific index in an
+// array, supporting both positive and negative indices, where negative values count from
+// the end of the array.
+
+// let fruits = [ "banana" , "grapes" , "kiwi"];
+// const number = [1,2,3,4,5,6,7,8,9]
+
+// console.log(fruits.at(-1));  //last one:::
+// console.log(number.at(-1));  //last one:::
+
+//------------------------------------------------------------
+
+// PUSH METHOD  4
+
+//The push() method in JavaScript adds one or more elements to the end of an array
+// and returns the new length of the array.
+
+// let fruits = [ "banana" , "apple" , "kiwi"]
+
+// fruits.push("nashpati") //its add the element in an array but,
+// console.log(fruits);
+
+// if we add another variable like ::
+
+// let fruto =  fruits.push("nashpati")   // it will show only length added one
+// console.log(fruto);
+
+//----------------------------------------------------------------------
+
+// POP METHOD::   5
+
+// The pop() method in JavaScript removes the last element from an array
+//  and returns that element.
+
+// let fruits = ['apple', 'banana', 'cherry'];
+
+// fruits.pop()  // removes the last one.
+// console.log(fruits);  //after removal you can see
+
+// console.log(fruits.pop()); // gives the last one  means returned the removed value
+
+//----------------------------------------------------------------------
+
+
 
 
 
